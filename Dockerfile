@@ -1,0 +1,5 @@
+FROM python
+COPY index.html index.html
+EXPOSE 6100
+CMD ["python", "-m", "http.server", "6100"]
+
